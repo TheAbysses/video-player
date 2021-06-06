@@ -1,0 +1,49 @@
+.video{width:500px;}
+.video_butonlar{
+	margin-top: -4px;
+	background: black; 
+	padding: 10px;
+}
+button.baslat, button.ses{
+	background: none;
+	color: #fff;
+	outline: none;
+	border: none;
+	font-size: 17px;
+}
+input[type=range] {
+	outline: none;
+    -webkit-appearance: none;
+    background-color: #5a5555;
+    width: 200px;
+    height: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: red;
+    margin-left: -2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 40px;
+}
+span.sure
+{
+	font-family: Arial;
+	font-size: 14px;
+	color:#fff;
+}
+input.video_sure
+{
+	cursor: pointer;
+	width: 54%;
+}
+input.video_ses
+{
+	width: 60px;
+	float: right;
+	margin-top: 5px;
+}
+.baslik{
+	font-family: 'Helvetica', Arial, sans-serif;
+}

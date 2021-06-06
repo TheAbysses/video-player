@@ -1,0 +1,27 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Video Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 class="baslik">Video Player</h1>
+	<div class="video">
+		<video id ="videoplayer" width="500">
+			<source src="" type="video/mp4"> <!-- Video Bağlantısı -->
+				Tarayıcınız Desteklemiyor!
+			</video>
+			<div class="video_butonlar">
+				<button class="baslat"><i class="fa fa-play" aria-hidden="true"></i></button>
+				<span class="sure"></span>	
+				<input type="range" class="video_sure" min="0" max="100" value="0"/>
+				<input type="range" class="video_ses" min="0" max="100" value="100" />
+				<button class="ses"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+			</div>
+		</div>
+
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/325b35e9d9.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="custom.js"></script>
+</body>
+</html>
