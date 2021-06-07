@@ -8,7 +8,7 @@
 git clone https://github.com/TheAbysses/video-player
 ```
 
-#### Add video / Change video
+### Add video / Change video
 
 <p align="center">
   <img src="https://i.hizliresim.com/56c5qxc.JPG" />
