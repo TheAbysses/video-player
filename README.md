@@ -5,7 +5,7 @@
 ## Download
 
 ```bash
-git clone https://github.com/TheAbysses/video-player
+$ git clone https://github.com/TheAbysses/video-player
 ```
 
 ### Add video / Change video
